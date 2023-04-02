@@ -2,8 +2,41 @@ import java.util.Scanner;
 
 /*
     Pseudocode:
+    class
+        var row
+        var col
+        var board
 
+        main
+            scanner input
+            output(Welcome to the game)
 
+            do
+                do
+                    clearBoard
+                    output(Player X play move)
+                    input rowMove
+                    input colMove
+                    validInput(rowMove, colMove)
+
+                    if valid
+                        board [row][col]
+                    else
+                        output(try again)
+
+                    isWinX = isWin(X)
+                    isWinO = isWin(0)
+                    isTie = isTie()
+                    if isWin = true
+                        Output(Player (X/0) has won
+                    else if isTie = true
+                        output(It is a tie)
+                    else
+                        Player = (X/0)
+                 while(not win or tie)
+            while(yes = true)
+        end main
+    end class
  */
 
 public class TicTacToeGame {
